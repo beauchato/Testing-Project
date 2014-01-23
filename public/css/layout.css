@@ -1,0 +1,37 @@
+body {
+    margin: 0 150px 0 150px;
+    background-color: #eff1f2;
+}
+
+#sidebar {
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 220px;
+    height: 1000px;
+    float: left;
+    background-color: #fff;
+    border: 2px solid #65291e;
+    border-right: none;
+}
+
+#main {
+    width: 600px;
+    height: 970px;
+    float: left;
+    background-color: #ffffff;
+    border: 2px solid #65291e;
+}
+
+#lodging, #daycare, #grooming, #training {
+    height: 300px;
+    width: 135px;
+    float: left;
+}
+
+#reservation {
+    float: left;
+}
+
+label {
+    display: block;
+}

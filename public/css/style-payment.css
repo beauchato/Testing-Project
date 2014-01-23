@@ -1,0 +1,41 @@
+div #head {
+    height: 100px;
+    background-color: #af7d79;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 10px 2px;
+}
+
+div #body {
+    padding: 20px 0 0 30px;
+}
+
+label {
+    padding: 10px 0 10px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    text-indent: 10px;
+    border: 1px solid #844242;
+    background-color: #fbfae2;
+    font-size: 11px;
+    cursor: default;
+}
+
+input:focus, input:hover {
+    border: 2px solid #844242;
+    margin: 1px;
+    outline-color: transparent;
+    outline-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
